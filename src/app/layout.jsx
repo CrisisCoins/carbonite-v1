@@ -10,8 +10,7 @@ export default function RootLayout({ children }) {
       */}
       <body className="relative min-h-screen">
         {children}
-
-        {/* Footer Component */}
+        {/* Footer */}
 
         <Footer />
       </body>
