@@ -31,7 +31,7 @@ export default function HomerSearch() {
     <>
       <form onSubmit={handleSubmit}
         className="flex w-full mt-5 mx-auto max-w-[90%]
-        border border-[#C9C9C9] px-5 py-3 rounded-full
+        border border-[#C9C9C9] px-5 py-3 rounded-md
         hover:shadow-md focus-within:shadow-md transition-shadow
         sm:max-w-xl lg:max-w-2xl"
       >
@@ -39,7 +39,7 @@ export default function HomerSearch() {
         <input
           className="flex-grow focus:outline-none"
           type="text"
-          placeholder="Search"
+          placeholder="Enter Search Query Here..."
           onChange={(e) => setInput(e.target.value)}
           value={input}
         />
