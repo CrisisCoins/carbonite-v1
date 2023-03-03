@@ -18,6 +18,7 @@ export default function Footer() {
                 <li className='link'>Privacy</li>
                 <li className='link'>Terms</li>
                 <li className='link'>Settings</li>
+                <li className='link'>Contact Us</li>
             </ul>
         </div>
     </footer>
