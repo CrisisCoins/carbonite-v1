@@ -10,7 +10,7 @@ export default function Home() {
       <HomeHeader />
 
       {/* body */}
-      <div className="flex flex-col items-center mt-24">
+      <div className="flex flex-col items-center mt-52">
         <Image
           width="300"
           height="100"
